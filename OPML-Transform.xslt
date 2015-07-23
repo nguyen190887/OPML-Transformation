@@ -9,7 +9,7 @@
             <head>
                 <title>OPML to HTML Table Transformation</title>
                 <style>
-                    table, td {
+                    table, td, th {
                     border: solid 1px #aaa;
                     }
                     table {
@@ -24,10 +24,10 @@
                     </h1>
                     <table>
                         <tr>
-                            <td>Text</td>
-                            <td>Title</td>
-                            <td>Feed URL</td>
-                            <td>Site URL</td>
+                            <th>Text</th>
+                            <th>Title</th>
+                            <th>Feed URL</th>
+                            <th>Site URL</th>
                         </tr>
 
                         <xsl:for-each select="outline">
